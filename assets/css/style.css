@@ -6,21 +6,21 @@ html,body{
 }
 
 .parallax1 {
-    background-image: url('../images/bg1.jpg');
+    background-image: url('../images/bg1.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax2 {
-    background-image: url('../images/bg2.jpg');
+    background-image: url('../images/bg2.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax3 {
-    background-image: url('../images/bg3.jpg');
+    background-image: url('../images/bg3.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
