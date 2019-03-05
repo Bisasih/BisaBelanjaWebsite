@@ -1,0 +1,38 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.parallax1 {
+    background-image: url('../images/bg1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url('../images/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background-image: url('../images/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-review{
+    background-color: transparent;
+}
+.card-review:hover{
+    background-color: black;
+}
+.card-feature:hover{
+    background-color: #E57208;
+    color: whitesmoke;
+}
