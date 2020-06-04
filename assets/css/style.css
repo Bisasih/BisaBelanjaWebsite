@@ -6,33 +6,43 @@ html,body{
 }
 
 .parallax1 {
-    background-image: url('../images/bg1.jpg');
+    background-image: 
+        linear-gradient(black, black),
+        url('https://images.unsplash.com/photo-1522957830388-0bea7607eed6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: saturation;
 }
 .parallax2 {
-    background-image: url('../images/bg2.jpg');
+    background-image: 
+        linear-gradient(black, black),
+        url('https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: saturation;
 }
 .parallax3 {
-    background-image: url('../images/bg3.jpg');
+    background-image: 
+        linear-gradient(black, black),
+        url('https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: saturation;
 }
 .card-review{
-    background-color: transparent;
+    background-color: white;
 }
 .card-review:hover{
-    background-color: black;
+    background-color: #510000 ;
+    color: white;
 }
 .card-feature:hover{
-    background-color: #E57208;
+    background-color: #510000;
     color: whitesmoke;
 }
